@@ -17,7 +17,8 @@ $sql = "DELETE FROM Tablename WHERE id= id";
 
 if ($conn->query($sql) === TRUE) {
     echo "Record deleted successfully";
-} else {
+} 
+else {
     echo "Error deleting record: " . $conn->error;
 }
 
